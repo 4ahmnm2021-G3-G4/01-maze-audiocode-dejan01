@@ -1,4 +1,4 @@
-# 01-maze-audiocode-smeerws
+# 01-maze-audiocode-dejan01
 
 ### Project description: 
 This project serves as sample project for spatial audio. 
