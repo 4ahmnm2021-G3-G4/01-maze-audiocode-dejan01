@@ -10,9 +10,6 @@ public class Scale : MonoBehaviour
     public GameObject SackLight2;
     public GameObject SackHeavy;
     public Text ScaleDisplay;
-    /*public Rigidbody SackLight1Rb;
-    public Rigidbody SackLight2Rb;
-    public Rigidbody SackHeavyRb;*/
 
     void OnTriggerEnter(Collider ScaleSack)
     {
@@ -35,7 +32,6 @@ public class Scale : MonoBehaviour
             Debug.Log("Heavy Sack has entered");
             ScaleDisplay.text = SackLight2.GetComponent<Rigidbody>().mass.ToString() + "kg";
         }
-
     }
 
     void OnTriggerExit(Collider ScaleSack)
