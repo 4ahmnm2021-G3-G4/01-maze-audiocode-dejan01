@@ -21,23 +21,27 @@ public class Scale : MonoBehaviour
         if(ScaleSack.gameObject == SackHeavy)
         {
             Debug.Log("Heavy Sack has entered");
+            ScaleDisplay.text = SackHeavy.GetComponent<Rigidbody>().mass.ToString() + "kg";
         }
 
-    void OnTriggerStay(Collider ScaleSack)
-    {
-        ScaleDisplay.text = SackHeavy.GetComponent<Rigidbody>().mass.ToString() + "kg";
+        if(ScaleSack.gameObject == Sacklight1)
+        {
+            Debug.Log("Heavy Sack has entered");
+            ScaleDisplay.text = Sacklight1.GetComponent<Rigidbody>().mass.ToString() + "kg";
+        }
+
+        if(ScaleSack.gameObject == SackLight2)
+        {
+            Debug.Log("Heavy Sack has entered");
+            ScaleDisplay.text = SackLight2.GetComponent<Rigidbody>().mass.ToString() + "kg";
+        }
+
     }
 
-    }   
-     // Start is called before the first frame update
-    void Start()
+    void OnTriggerExit(Collider ScaleSack)
     {
-        
+        ScaleDisplay.text = "";
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+      
 }
