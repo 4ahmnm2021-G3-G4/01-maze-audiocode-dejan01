@@ -1,8 +1,7 @@
 # 01-maze-audiocode-dejan01
 
 ### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+This proejcts is about finding peanuts, collecting them and putting them into a bucket. There are three peanuts in the game. In the end you have ti find the heaviest sack by putting it on the scale. Cut through the sack with a knife which is located next to the scale. All Peanuts have a up and down animation and have an animal sound.
 
 ### Development platform: 
 OS: Windows 10, Game Engine: Unity 2019.1.14f1, Visual Studio 2019, Steam,  
