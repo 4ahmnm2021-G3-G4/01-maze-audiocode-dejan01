@@ -6,31 +6,45 @@ using UnityEngine.UI;
 public class Scale : MonoBehaviour
 {
     public GameObject ScaleSack;
-    public GameObject Sacklight1;
     public GameObject SackLight2;
-    public GameObject SackHeavy;
+    public GameObject SackLight3;
+    public GameObject SackLight7;
+    public GameObject SackLight5;
+    public GameObject SackLight8;
     public Text ScaleDisplay;
 
     void OnTriggerEnter(Collider ScaleSack)
     {
-        Debug.Log("Entered");
+        //Debug.Log("Entered");
 
-        if(ScaleSack.gameObject == SackHeavy)
+        if(ScaleSack.gameObject == SackLight8)
         {
-            Debug.Log("Heavy Sack has entered");
-            ScaleDisplay.text = SackHeavy.GetComponent<Rigidbody>().mass.ToString() + "kg";
-        }
-
-        if(ScaleSack.gameObject == Sacklight1)
-        {
-            Debug.Log("Heavy Sack has entered");
-            ScaleDisplay.text = Sacklight1.GetComponent<Rigidbody>().mass.ToString() + "kg";
+            Debug.Log("Sack Light 8 has entered");
+            ScaleDisplay.text = SackLight8.GetComponent<Rigidbody>().mass.ToString() + "kg";
         }
 
         if(ScaleSack.gameObject == SackLight2)
         {
-            Debug.Log("Heavy Sack has entered");
+            Debug.Log("Sack Light 2 has entered");
             ScaleDisplay.text = SackLight2.GetComponent<Rigidbody>().mass.ToString() + "kg";
+        }
+
+        if(ScaleSack.gameObject == SackLight3)
+        {
+            Debug.Log("Sack Light 3 has entered");
+            ScaleDisplay.text = SackLight3.GetComponent<Rigidbody>().mass.ToString() + "kg";
+        }
+
+        if(ScaleSack.gameObject == SackLight7)
+        {
+            Debug.Log("Sack Light 7 has entered");
+            ScaleDisplay.text = SackLight7.GetComponent<Rigidbody>().mass.ToString() + "kg";
+        }
+
+        if(ScaleSack.gameObject == SackLight5)
+        {
+            Debug.Log("Sack Light5 has entered");
+            ScaleDisplay.text = SackLight5.GetComponent<Rigidbody>().mass.ToString() + "kg";
         }
     }
 
