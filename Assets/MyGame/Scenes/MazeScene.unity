@@ -7813,7 +7813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScaleSack: {fileID: 1867347750}
-  SackLight2: {fileID: 1433919135}
+  SackLight2: {fileID: 1130186571}
   SackLight3: {fileID: 1433919135}
   SackLight7: {fileID: 1651312673}
   SackLight5: {fileID: 1471311243}
