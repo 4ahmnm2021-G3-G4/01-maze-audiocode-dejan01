@@ -2232,6 +2232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.044
@@ -2242,7 +2246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.74
+      value: -9.56
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2281,6 +2285,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8194540, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455280, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -4234,17 +4250,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9553eed1573c34bbbba7a4a2793b035c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.87
+      value: -3.67
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9553eed1573c34bbbba7a4a2793b035c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9553eed1573c34bbbba7a4a2793b035c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.85
+      value: -2.98
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9553eed1573c34bbbba7a4a2793b035c,
         type: 3}
@@ -7394,8 +7410,8 @@ GameObject:
   - component: {fileID: 1698138820}
   - component: {fileID: 1698138819}
   - component: {fileID: 1698138818}
-  - component: {fileID: 1698138817}
   - component: {fileID: 1698138821}
+  - component: {fileID: 1698138817}
   m_Layer: 0
   m_Name: TriggerDoorStart
   m_TagString: Untagged
@@ -7414,8 +7430,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 3.501833, z: 1.1962984}
+  m_Center: {x: -0.00000033850947, y: 0.16884983, z: -0.098148435}
 --- !u!23 &1698138818
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7468,9 +7484,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698138816}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 3.2904398, y: -1.2828113, z: -0.08112663}
-  m_LocalScale: {x: 1.4171027, y: 0.2932742, z: 3.9359334}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.413273, y: -0.282, z: -0.029746443}
+  m_LocalScale: {x: 0.7016108, y: 0.73573697, z: 12.552184}
   m_Children: []
   m_Father: {fileID: 617635761}
   m_RootOrder: 0

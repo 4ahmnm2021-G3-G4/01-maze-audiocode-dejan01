@@ -6,12 +6,12 @@ public class DoorController : MonoBehaviour
 {
     Animator _doorAnim;
     private void OnTriggerEnter(Collider other) {
-        _doorAnim.SetBool("isOpening", true);
+        _doorAnim.SetBool("IsOpening", true);
         Debug.Log("Collision detected");
     }
 
     private void OnTriggerExit(Collider other) {
-        _doorAnim.SetBool("isOpening", false);
+        _doorAnim.SetBool("IsOpening", false);
     }
     // Start is called before the first frame update
     void Start()
