@@ -12,6 +12,7 @@ public class Scale : MonoBehaviour
     public GameObject SackLight5;
     public GameObject SackLight8;
     public Text ScaleDisplay;
+    public GameObject ScaleScript;
 
 
     
@@ -19,6 +20,8 @@ public class Scale : MonoBehaviour
     public void OnTriggerEnter(Collider ScaleSack)
     {
         //Debug.Log("Entered");
+
+       
 
         if(ScaleSack.gameObject == SackLight8)
         {
@@ -36,6 +39,7 @@ public class Scale : MonoBehaviour
         {
             Debug.Log("Sack 10kg has entered");
             ScaleDisplay.text = Sack10.GetComponent<Rigidbody>().mass.ToString() + "kg";
+            ScaleScript.SetActive(true);
         }
 
         if(ScaleSack.gameObject == SackLight7)
