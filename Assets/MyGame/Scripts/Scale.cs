@@ -7,13 +7,16 @@ public class Scale : MonoBehaviour
 {
     public GameObject ScaleSack;
     public GameObject SackLight2;
-    public GameObject SackLight3;
+    public GameObject Sack10;
     public GameObject SackLight7;
     public GameObject SackLight5;
     public GameObject SackLight8;
     public Text ScaleDisplay;
 
-    void OnTriggerEnter(Collider ScaleSack)
+
+    
+
+    public void OnTriggerEnter(Collider ScaleSack)
     {
         //Debug.Log("Entered");
 
@@ -29,10 +32,10 @@ public class Scale : MonoBehaviour
             ScaleDisplay.text = SackLight2.GetComponent<Rigidbody>().mass.ToString() + "kg";
         }
 
-        if(ScaleSack.gameObject == SackLight3)
+        if(ScaleSack.gameObject == Sack10)
         {
-            Debug.Log("Sack Light 3 has entered");
-            ScaleDisplay.text = SackLight3.GetComponent<Rigidbody>().mass.ToString() + "kg";
+            Debug.Log("Sack 10kg has entered");
+            ScaleDisplay.text = Sack10.GetComponent<Rigidbody>().mass.ToString() + "kg";
         }
 
         if(ScaleSack.gameObject == SackLight7)
@@ -46,6 +49,7 @@ public class Scale : MonoBehaviour
             Debug.Log("Sack Light5 has entered");
             ScaleDisplay.text = SackLight5.GetComponent<Rigidbody>().mass.ToString() + "kg";
         }
+
     }
 
     void OnTriggerExit(Collider ScaleSack)
