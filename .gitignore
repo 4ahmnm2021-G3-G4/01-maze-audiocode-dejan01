@@ -2,6 +2,9 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -10,6 +13,17 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+/[Aa]ssets/SteamVR/
+/[Aa]ssets/SteamVR_Input/
+/[Aa]ssets/SteamVR_Resources/
+/[Aa]ssets/StreamingAssets/
+/[Aa]ssets/ResonanceAudio/
+
+Assets/ResonanceAudio.meta
+Assets/SteamVR.meta
+Assets/SteamVR_Input.meta
+Assets/SteamVR_Resources.meta
+Assets/StreamingAssets.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -56,17 +70,4 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-/[Aa]ssets/SteamVR/
-/[Aa]ssets/SteamVR_Input/
-/[Aa]ssets/SteamVR_Resources/
-/[Aa]ssets/StreamingAssets/
-/[Aa]ssets/ResonanceAudio/
 
-Assets/ResonanceAudio.meta
-Assets/SteamVR.meta
-Assets/SteamVR_Input.meta
-Assets/SteamVR_Resources.meta
-Assets/StreamingAssets.meta
-
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
