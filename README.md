@@ -25,7 +25,11 @@ Oculus Rift/S, Vive;
 Tested on Oculus Rift S
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+
+![Screenshots](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-dejan01/blob/main/Screenshots/Bildschirmfoto 2021-06-28 um 23.00.10.png)
+
+
+Screencapture Link: https://youtu.be/krc5JLtN3UY
 
 ### Third party material: 
 Sounds by BBC Library: https://sound-effects.bbcrewind.co.uk/
@@ -38,8 +42,9 @@ Sacks: https://sketchfab.com/3d-models/sack-v2-74f60f70effb486faf645519b3dae1a9
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
--parented peaunts didn't fall at the right moment as expected
+-parenting peanuts to one sack caused an offset of peanuts.
 -Sound is coming from every direction. For example: Audio Source is on the left hand side of the player but the sound can be heared from every direction.
+–Screencapture wasn't easy --> slow PC and navigation with WASD + Mouse. 
 
 ### Lessons Learned: 
 - Learned how to Animate in Unity using the animator
