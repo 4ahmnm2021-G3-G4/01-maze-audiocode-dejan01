@@ -26,7 +26,7 @@ Tested on Oculus Rift S
 
 ### Visuals: 
 
-![Screenshots](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-dejan01/blob/main/Screenshots/Bildschirmfoto 2021-06-28 um 23.00.10.png)
+![Screenshots](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-dejan01/blob/main/Screenshots/Bildschirmfoto2021-06-28um23.00.10.png)
 
 
 Screencapture Link: https://youtu.be/krc5JLtN3UY
