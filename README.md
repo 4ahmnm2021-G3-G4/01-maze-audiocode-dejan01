@@ -34,10 +34,11 @@ Nuts: https://sketchfab.com/3d-models/peanut-d6a36d7a63344fc29ce332bb8b1462e0
 Sacks: https://sketchfab.com/3d-models/sack-v2-74f60f70effb486faf645519b3dae1a9 
 
 ### Project state: 
-90%/100% finished
+100%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
+-parented peaunts didn't fall at the right moment as expected
 
 ### Lessons Learned: 
 - Learned how to Animate in Unity using the animator
@@ -45,4 +46,4 @@ Sacks: https://sketchfab.com/3d-models/sack-v2-74f60f70effb486faf645519b3dae1a9
 - First time working with branches
 
 
-Copyright by smeerws :)
+Copyright by Dejan
