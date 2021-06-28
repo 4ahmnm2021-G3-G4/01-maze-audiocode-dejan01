@@ -6,10 +6,12 @@ public class DoorEndControl : MonoBehaviour
 {
 
     Animator _doorEnd;
+    public AudioSource doorSoundEnd;
 
     void OnTriggerEnter(Collider other)
     {
         _doorEnd.SetBool("isOpening", true);
+        doorSoundEnd.Play(0);
     }
     void Start()
     {
