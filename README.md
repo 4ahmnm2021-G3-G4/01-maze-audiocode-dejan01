@@ -39,6 +39,7 @@ Sacks: https://sketchfab.com/3d-models/sack-v2-74f60f70effb486faf645519b3dae1a9
 
 ### Limitations: 
 -parented peaunts didn't fall at the right moment as expected
+-Sound is coming from every direction. For example: Audio Source is on the left hand side of the player but the sound can be heared from every direction.
 
 ### Lessons Learned: 
 - Learned how to Animate in Unity using the animator
