@@ -1,10 +1,10 @@
 # 01-maze-audiocode-dejan01
 
 ### Project description: 
-This proejcts is about finding peanuts, collecting them and putting them into a bucket. There are three peanuts in the game. In the end you have ti find the heaviest sack by putting it on the scale. Cut through the sack with a knife which is located next to the scale. All Peanuts have a up and down animation and have an animal sound.
+This proejcts is about to find a sack that weighs 10kg in order to leave the maze. A scale was placed next to the exit door, where the player can check the weight of the sack. If the 10kg Sack was placed, the exit door will open. 
 
 ### Development platform: 
-OS: Windows 10, Game Engine: Unity 2019.1.14f1, Visual Studio 2019, Steam,  
+MacOs: Big Sur 11.2.3, Game Engine: Unity 2019.1.14f1, Visual Studio Code 1.57.1, Steam,  
 SteamVR 2.5.0 (https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/2.5.0)
 
 Note on Unity Version 2019.1.14f1 and SteamVR: The SteamVr plugin has many issues when used with Unity Versions > 2019.1.3 because the XR Management System changed from 2019.1.3 to 2019.1.4. Valve is working on it, so we will use these older versions for the VR programming.  
@@ -28,14 +28,21 @@ Tested on Oculus Rift S
 Screenshots (concept and experience), Video
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+Sounds by BBC Library: https://sound-effects.bbcrewind.co.uk/
+Trees, Bushes and Leaves from the Unity Assets Store
+Nuts: https://sketchfab.com/3d-models/peanut-d6a36d7a63344fc29ce332bb8b1462e0
+Sacks: https://sketchfab.com/3d-models/sack-v2-74f60f70effb486faf645519b3dae1a9 
 
 ### Project state: 
-2%/100% finished
+90%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
 
 ### Lessons Learned: 
+- Learned how to Animate in Unity using the animator
+- Learned 3D Audio Settings 
+- First time working with branches
+
 
 Copyright by smeerws :)

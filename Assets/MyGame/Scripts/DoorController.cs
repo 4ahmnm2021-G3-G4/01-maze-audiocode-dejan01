@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
+
+    public AudioSource doorSound;
     Animator _doorAnim;
     private void OnTriggerEnter(Collider other) {
         _doorAnim.SetBool("IsOpening", true);
         Debug.Log("Collision detected");
+        doorSound.Play(0);
     }
 
     private void OnTriggerExit(Collider other) {
