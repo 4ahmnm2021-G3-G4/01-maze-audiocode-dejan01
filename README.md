@@ -1,7 +1,7 @@
 # 01-maze-audiocode-dejan01
 
 ### Project description: 
-This proejcts is about to find a sack that weighs 10kg in order to leave the maze. A scale was placed next to the exit door, where the player can check the weight of the sack. If the 10kg Sack was placed, the exit door will open. 
+This project is about to find a sack that weighs 10kg in order to leave the maze. A scale was placed next to the exit door, where the player can check the weight of the sack. If the 10kg Sack was placed, the exit door will open. 
 
 ### Development platform: 
 MacOs: Big Sur 11.2.3, Game Engine: Unity 2019.1.14f1, Visual Studio Code 1.57.1, Steam,  
